@@ -10,7 +10,7 @@ const MedicalServices: React.FC = () => {
               {/* Section Title Start */}
               <div className="section-title">
                 <h3 className="wow fadeInUp">medical services</h3>
-                <h2 className="text-anime-style-3">We're Providing Best Services.</h2>
+                <h2 className="text-anime-style-3">We are Providing Best Services.</h2>
               </div>
               {/* Section Title End */}
             </div>

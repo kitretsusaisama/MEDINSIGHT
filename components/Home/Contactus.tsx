@@ -9,7 +9,7 @@ const HomeContactUs: React.FC = () => {
             {/* Home Contact Start */}
             <div className="home-contact-item highlighted-box wow fadeInUp" data-wow-delay="0.25s">
               <div className="highlighted-box-title">
-                <h2>Don't <strong>Hesitate </strong>To Contact us</h2>
+                <h2>Dont <strong>Hesitate </strong>To Contact us</h2>
               </div>
               <div className="appointment-wrap">
                 <a className="appointment-btn" href="#">Make Appointment <i className="far fa-calendar-alt"></i></a>
