@@ -10,7 +10,7 @@ const CtaBox: React.FC = () => {
             <div className="cta-item">
               {/* Icon Box Start */}
               <div className="icon-box">
-                <img src="/images/icon-appointment.svg" alt="Appointment Icon" />
+                <img src="https://medinsight.vercel.app/images/icon-appointment.svg" alt="Appointment Icon" />
               </div>
               {/* Icon Box End */}
 

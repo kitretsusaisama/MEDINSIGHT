@@ -22,7 +22,7 @@ const MedicalServices: React.FC = () => {
               <div className="medical-service-content">
                 {/* Icon Box Start */}
                 <div className="icon-box">
-                  <img src="/images/icon-medical-service-1.svg" alt="Eye Care Icon" />
+                  <img src="https://medinsight.vercel.app/images/icon-medical-service-1.svg" alt="Eye Care Icon" />
                 </div>
                 {/* Icon Box End */}
 
@@ -48,7 +48,7 @@ const MedicalServices: React.FC = () => {
               <div className="medical-service-content">
                 {/* Icon Box Start */}
                 <div className="icon-box">
-                  <img src="/images/icon-medical-service-2.svg" alt="Medical Checkup Icon" />
+                  <img src="https://medinsight.vercel.app/images/icon-medical-service-2.svg" alt="Medical Checkup Icon" />
                 </div>
                 {/* Icon Box End */}
 
@@ -74,7 +74,7 @@ const MedicalServices: React.FC = () => {
               <div className="medical-service-content">
                 {/* Icon Box Start */}
                 <div className="icon-box">
-                  <img src="/images/icon-medical-service-3.svg" alt="Dental Care Icon" />
+                  <img src="https://medinsight.vercel.app/images/icon-medical-service-3.svg" alt="Dental Care Icon" />
                 </div>
                 {/* Icon Box End */}
 
@@ -100,7 +100,7 @@ const MedicalServices: React.FC = () => {
               <div className="medical-service-content">
                 {/* Icon Box Start */}
                 <div className="icon-box">
-                  <img src="/images/icon-medical-service-4.svg" alt="Laboratory Service Icon" />
+                  <img src="https://medinsight.vercel.app/images/icon-medical-service-4.svg" alt="Laboratory Service Icon" />
                 </div>
                 {/* Icon Box End */}
 
@@ -126,7 +126,7 @@ const MedicalServices: React.FC = () => {
               <div className="medical-service-content">
                 {/* Icon Box Start */}
                 <div className="icon-box">
-                  <img src="/images/icon-medical-service-5.svg" alt="Patient-centered Icon" />
+                  <img src="https://medinsight.vercel.app/images/icon-medical-service-5.svg" alt="Patient-centered Icon" />
                 </div>
                 {/* Icon Box End */}
 

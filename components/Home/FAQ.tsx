@@ -10,7 +10,7 @@ const OurFaqs: React.FC = () => {
               {/* Image Item Start */}
               <div className="faq-image">
                 <figure className="reveal image-anime">
-                  <img src="/images/home-faq-img.jpg" alt="Healthcare Image" />
+                  <img src="https://medinsight.vercel.app/images/home-faq-img.jpg" alt="Healthcare Image" />
                 </figure>
               </div>
               {/* Image Item End */}

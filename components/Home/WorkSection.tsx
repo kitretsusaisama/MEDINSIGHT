@@ -29,7 +29,7 @@ const HowWeWork: React.FC = () => {
             <div className="work-step-item wow fadeInUp">
               {/* Icon Box Start */}
               <div className="icon-box">
-                <img src="/images/icon-work-step-1.svg" alt="Book Appointment" />
+                <img src="https://medinsight.vercel.app/images/icon-work-step-1.svg" alt="Book Appointment" />
               </div>
               {/* Icon Box End */}
 
@@ -47,7 +47,7 @@ const HowWeWork: React.FC = () => {
             <div className="work-step-item wow fadeInUp" data-wow-delay="0.5s">
               {/* Icon Box Start */}
               <div className="icon-box">
-                <img src="/images/icon-work-step-2.svg" alt="Conduct Checkup" />
+                <img src="https://medinsight.vercel.app/images/icon-work-step-2.svg" alt="Conduct Checkup" />
               </div>
               {/* Icon Box End */}
 
@@ -65,7 +65,7 @@ const HowWeWork: React.FC = () => {
             <div className="work-step-item wow fadeInUp" data-wow-delay="0.75s">
               {/* Icon Box Start */}
               <div className="icon-box">
-                <img src="/images/icon-work-step-3.svg" alt="Perform Treatment" />
+                <img src="https://medinsight.vercel.app/images/icon-work-step-3.svg" alt="Perform Treatment" />
               </div>
               {/* Icon Box End */}
 
@@ -83,7 +83,7 @@ const HowWeWork: React.FC = () => {
             <div className="work-step-item wow fadeInUp" data-wow-delay="1s">
               {/* Icon Box Start */}
               <div className="icon-box">
-                <img src="/images/icon-work-step-4.svg" alt="Prescribe & Payment" />
+                <img src="https://medinsight.vercel.app/images/icon-work-step-4.svg" alt="Prescribe & Payment" />
               </div>
               {/* Icon Box End */}
 

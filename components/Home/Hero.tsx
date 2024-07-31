@@ -38,12 +38,12 @@ const Hero: React.FC = () => {
             <div className="hero-images">
               <div className="hero-image-1">
                 <figure className="image-anime reveal">
-                  <img src="/images/hero-img-1.jpg" alt="Hero Image 1" />
+                  <img src="https://medinsight.vercel.app/images/hero-img-1.jpg" alt="Hero Image 1" />
                 </figure>
               </div>
               <div className="hero-image-2">
                 <figure className="image-anime reveal">
-                  <img src="/images/hero-img-2.jpg" alt="Hero Image 2" />
+                  <img src="https://medinsight.vercel.app/images/hero-img-2.jpg" alt="Hero Image 2" />
                 </figure>
               </div>
             </div>

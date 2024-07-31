@@ -11,18 +11,18 @@ const AboutUs: React.FC = () => {
               <div className="about-us-image">
                 <div className="about-us-image-1">
                   <figure className="image-anime reveal">
-                    <img src="/images/about-img-1.jpg" alt="About Us Image 1" />
+                    <img src="https://medinsight.vercel.app/images/about-img-1.jpg" alt="About Us Image 1" />
                   </figure>
                 </div>
                 <div className="about-us-image-2">
                   <figure className="image-anime reveal">
-                    <img src="/images/about-img-2.jpg" alt="About Us Image 2" />
+                    <img src="https://medinsight.vercel.app/images/about-img-2.jpg" alt="About Us Image 2" />
                   </figure>
                 </div>
               </div>
               <div className="about-video wow fadeInUp">
                 <figure className="image-anime">
-                  <img src="/images/about-video-img.jpg" alt="About Us Video" />
+                  <img src="https://medinsight.vercel.app/images/about-video-img.jpg" alt="About Us Video" />
                   <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" className="btn-video popup-youtube">
                     <i className="fas fa-play-circle"></i> Watch Video
                   </a>

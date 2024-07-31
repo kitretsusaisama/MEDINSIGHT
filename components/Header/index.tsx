@@ -1,103 +1,103 @@
-import React from 'react';
+import Link from 'next/link';
 
-const Header: React.FC = () => {
-  return (
-    <header className="main-header">
-      <div className="header-sticky">
-        <nav className="navbar navbar-expand-lg">
-          <div className="container">
-            {/* Logo Start */}
-            <div className="header-logo">
-              <a className="navbar-brand" href="index.html">
-                <img src="/images/logo.svg" alt="Logo" />
+const Header = () => (
+  <header className="main-header">
+    <div className="header-sticky">
+      <nav className="navbar navbar-expand-lg">
+        <div className="container">
+          {/* Logo Start */}
+          <div className="header-logo">
+            <Link href="/">
+              <a className="navbar-brand">
+                <img src="https://medinsight.vercel.app/images/logo.svg" alt="" />
               </a>
-            </div>
-            {/* Logo End */}
+            </Link>
+          </div>
+          {/* Logo End */}
 
-            {/* Main Menu Start */}
-            <div className="collapse navbar-collapse main-menu">
-              <div className="nav-menu-wrapper">
-                <ul className="navbar-nav mr-auto" id="menu">
-                  <li className="nav-item">
-                    <a className="nav-link" href="index.html">
-                      Home
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="about.html">
-                      About Us
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="services.html">
-                      Services
-                    </a>
-                  </li>
-                  <li className="nav-item submenu">
-                    <a className="nav-link" href="#">
-                      Pages
-                    </a>
-                    <ul>
-                      <li className="nav-item">
-                        <a className="nav-link" href="services-single.html">
-                          Service Single
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="blog.html">
-                          Blog
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="blog-single.html">
-                          Blog Single
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="team.html">
-                          Our Team
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="team-single.html">
-                          Team Details
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="faqs.html">
-                          FAQs
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="404.html">
-                          404
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="contact.html">
-                      Contact Us
-                    </a>
-                  </li>
-                  <li className="nav-item highlighted-menu">
-                    <a className="nav-link" href="appointment.html">
+          {/* Main Menu Start */}
+          <div className="collapse navbar-collapse main-menu">
+            <div className="nav-menu-wrapper">
+              <ul className="navbar-nav mr-auto" id="menu">
+                <li className="nav-item">
+                  <Link href="/">
+                    <a className="nav-link">Home</a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link href="/about">
+                    <a className="nav-link">About Us</a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link href="/services">
+                    <a className="nav-link">Services</a>
+                  </Link>
+                </li>
+                <li className="nav-item submenu">
+                  <a className="nav-link" href="#">
+                    Pages
+                  </a>
+                  <ul>
+                    <li className="nav-item">
+                      <Link href="/services-single">
+                        <a className="nav-link">Service Single</a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/blog">
+                        <a className="nav-link">Blog</a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/blog-single">
+                        <a className="nav-link">Blog Single</a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/team">
+                        <a className="nav-link">Our Team</a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/team-single">
+                        <a className="nav-link">Team Details</a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/faqs">
+                        <a className="nav-link">FAQs</a>
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/404">
+                        <a className="nav-link">404</a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li className="nav-item">
+                  <Link href="/contact">
+                    <a className="nav-link">Contact Us</a>
+                  </Link>
+                </li>
+                <li className="nav-item highlighted-menu">
+                  <Link href="/appointment">
+                    <a className="nav-link">
                       Book Appointment <i className="fa-solid fa-calendar-days"></i>
                     </a>
-                  </li>
-                </ul>
-              </div>
+                  </Link>
+                </li>
+              </ul>
             </div>
-            {/* Main Menu End */}
-
-            {/* Navbar Toggle */}
-            <div className="navbar-toggle"></div>
           </div>
-        </nav>
-        <div className="responsive-menu"></div>
-      </div>
-    </header>
-  );
-};
+          {/* Main Menu End */}
+          <div className="navbar-toggle"></div>
+        </div>
+      </nav>
+      <div className="responsive-menu"></div>
+    </div>
+  </header>
+);
 
 export default Header;

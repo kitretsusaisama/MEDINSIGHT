@@ -23,7 +23,7 @@ const HomeContactUs: React.FC = () => {
             <div className="home-contact-item box-border wow fadeInUp" data-wow-delay="0.25s">
               {/* Contact Icon Start */}
               <div className="contact-icon">
-                <img src="/images/icon-home-contact-1.svg" alt="Need Family Health" />
+                <img src="https://medinsight.vercel.app/images/icon-home-contact-1.svg" alt="Need Family Health" />
               </div>
               {/* Contact Icon End */}
 
@@ -42,7 +42,7 @@ const HomeContactUs: React.FC = () => {
             <div className="home-contact-item wow fadeInUp" data-wow-delay="0.25s">
               {/* Contact Icon Start */}
               <div className="contact-icon">
-                <img src="/images/icon-home-contact-2.svg" alt="24 Hours Service" />
+                <img src="https://medinsight.vercel.app/images/icon-home-contact-2.svg" alt="24 Hours Service" />
               </div>
               {/* Contact Icon End */}
 
