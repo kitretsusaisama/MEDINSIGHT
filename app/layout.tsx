@@ -30,9 +30,12 @@ export default function RootLayout({
 	{/*<!-- Favicon Icon --> */}
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
     {/*<!-- Google Fonts css-->*/}
-    <link rel="preconnect" href="../../../external.html?link=https://fonts.googleapis.com/"/>
-    <link rel="preconnect" href="../../../external.html?link=https://fonts.gstatic.com/" crossOrigin/>
-    <link href="../../../external.html?link=https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossOrigin="anonymous" />
+      <link rel="preconnect" href="https://fonts.gstatic.com/" crossOrigin="anonymous" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet"
+      />
 	{/*<!-- Bootstrap Css --> */}
 	<link href="../public/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
 	{/*<!-- SlickNav Css --> */}
