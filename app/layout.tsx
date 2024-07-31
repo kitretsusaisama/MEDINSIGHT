@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,34 +52,34 @@ export default function RootLayout({
       <body className={inter.className}>{children}
         
     {/*<!-- Jquery Library File -->  */}
-    <script src="../public/js/jquery-3.7.1.min.js"></script>
+    <Script src="../public/js/jquery-3.7.1.min.js"></Script>
     {/*<!-- Bootstrap js file -->  */}
-    <script src="../public/js/bootstrap.min.js"></script>
+    <Script src="../public/js/bootstrap.min.js"></Script>
     {/*<!-- Validator js file --> */}
-    <script src="../public/js/validator.min.js"></script>
+    <Script src="../public/js/validator.min.js"></Script>
     {/*<!-- SlickNav js file -->  */}
-    <script src="../public/js/jquery.slicknav.js"></script>
+    <Script src="../public/js/jquery.slicknav.js"></Script>
     {/*<!-- Swiper js file -->  */}
-    <script src="../public/js/swiper-bundle.min.js"></script>
+    <Script src="../public/js/swiper-bundle.min.js"></Script>
     {/*<!-- Counter js file -->  */}
-    <script src="../public/js/jquery.waypoints.min.js"></script>
-    <script src="../public/js/jquery.counterup.min.js"></script>
+    <Script src="../public/js/jquery.waypoints.min.js"></Script>
+    <Script src="../public/js/jquery.counterup.min.js"></Script>
     {/*<!-- Magnific js file -->  */}
-    <script src="../public/js/jquery.magnific-popup.min.js"></script>
+    <Script src="../public/js/jquery.magnific-popup.min.js"></Script>
     {/*<!-- SmoothScroll -->  */}
-    <script src="../public/js/SmoothScroll.js"></script>
+    <Script src="../public/js/SmoothScroll.js"></Script>
     {/*<!-- Parallax js -->  */}
-    <script src="../public/js/parallaxie.js"></script>
+    <Script src="../public/js/parallaxie.js"></Script>
     {/*<!-- MagicCursor js file -->  */}
-    <script src="../public/js/gsap.min.js"></script>
-    <script src="../public/js/magiccursor.js"></script>
+    <Script src="../public/js/gsap.min.js"></Script>
+    <Script src="../public/js/magiccursor.js"></Script>
     {/*<!-- Text Effect js file -->  */}
-    <script src="../public/js/SplitText.js"></script>
-    <script src="../public/js/ScrollTrigger.min.js"></script>
+    <Script src="../public/js/SplitText.js"></Script>
+    <Script src="../public/js/ScrollTrigger.min.js"></Script>
     {/*<!-- Wow js file -->  */}
-    <script src="../public/js/wow.js"></script>
+    <Script src="../public/js/wow.js"></Script>
     {/*<!-- Main Custom js file -->  */}
-    <script src="../public/js/function.js"></script>
+    <Script src="../public/js/function.js"></Script>
       </body>
     </html>
   );
