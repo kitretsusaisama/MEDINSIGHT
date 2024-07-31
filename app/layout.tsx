@@ -28,7 +28,7 @@ export default function RootLayout({
 	{/*<!-- Page Title --> */}
 	<title>MediPro - Hospital HTML Template</title>
 	{/*<!-- Favicon Icon --> */}
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
+	<link rel="shortcut icon" type="image/x-icon" href="https://medinsight.vercel.app/images/favicon.png"/>
     {/*<!-- Google Fonts css-->*/}
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossOrigin="anonymous" />
       <link rel="preconnect" href="https://fonts.gstatic.com/" crossOrigin="anonymous" />
@@ -37,52 +37,52 @@ export default function RootLayout({
         rel="stylesheet"
       />
 	{/*<!-- Bootstrap Css --> */}
-	<link href="../public/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+	<link href="https://medinsight.vercel.app/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
 	{/*<!-- SlickNav Css --> */}
-	<link href="../public/css/slicknav.min.css" rel="stylesheet"/>
+	<link href="https://medinsight.vercel.app/css/slicknav.min.css" rel="stylesheet"/>
 	{/*<!-- Swiper Css --> */}
-	<link rel="stylesheet" href="../public/css/swiper-bundle.min.css"/>
-  <link href="../public/css/all.css" rel="stylesheet" media="screen"/>
+	<link rel="stylesheet" href="https://medinsight.vercel.app/css/swiper-bundle.min.css"/>
+  <link href="https://medinsight.vercel.app/css/all.css" rel="stylesheet" media="screen"/>
 
 	{/*<!-- Animated Css --> */}
-	<link href="../public/css/animate.min.css" rel="stylesheet"/>
+	<link href="https://medinsight.vercel.app/css/animate.min.css" rel="stylesheet"/>
 	{/*<!-- Magnific Popup core CSS file --> */}
-	<link rel="stylesheet" href="../public/css/magnific-popup.css"/>
+	<link rel="stylesheet" href="https://medinsight.vercel.app/css/magnific-popup.css"/>
 	{/*<!-- Main custom Css --> */}
-	<link href="../public/css/custom.css" rel="stylesheet" media="screen"/>
+	<link href="https://medinsight.vercel.app/css/custom.css" rel="stylesheet" media="screen"/>
 </head>
 
       <body className={inter.className}>{children}
         
     {/*<!-- Jquery Library File -->  */}
-    <Script src="../public/js/jquery-3.7.1.min.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/jquery-3.7.1.min.js"></Script>
     {/*<!-- Bootstrap js file -->  */}
-    <Script src="../public/js/bootstrap.min.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/bootstrap.min.js"></Script>
     {/*<!-- Validator js file --> */}
-    <Script src="../public/js/validator.min.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/validator.min.js"></Script>
     {/*<!-- SlickNav js file -->  */}
-    <Script src="../public/js/jquery.slicknav.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/jquery.slicknav.js"></Script>
     {/*<!-- Swiper js file -->  */}
-    <Script src="../public/js/swiper-bundle.min.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/swiper-bundle.min.js"></Script>
     {/*<!-- Counter js file -->  */}
-    <Script src="../public/js/jquery.waypoints.min.js"></Script>
-    <Script src="../public/js/jquery.counterup.min.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/jquery.waypoints.min.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/jquery.counterup.min.js"></Script>
     {/*<!-- Magnific js file -->  */}
-    <Script src="../public/js/jquery.magnific-popup.min.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/jquery.magnific-popup.min.js"></Script>
     {/*<!-- SmoothScroll -->  */}
-    <Script src="../public/js/SmoothScroll.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/SmoothScroll.js"></Script>
     {/*<!-- Parallax js -->  */}
-    <Script src="../public/js/parallaxie.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/parallaxie.js"></Script>
     {/*<!-- MagicCursor js file -->  */}
-    <Script src="../public/js/gsap.min.js"></Script>
-    <Script src="../public/js/magiccursor.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/gsap.min.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/magiccursor.js"></Script>
     {/*<!-- Text Effect js file -->  */}
-    <Script src="../public/js/SplitText.js"></Script>
-    <Script src="../public/js/ScrollTrigger.min.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/SplitText.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/ScrollTrigger.min.js"></Script>
     {/*<!-- Wow js file -->  */}
-    <Script src="../public/js/wow.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/wow.js"></Script>
     {/*<!-- Main Custom js file -->  */}
-    <Script src="../public/js/function.js"></Script>
+    <Script src="https://medinsight.vercel.app/js/function.js"></Script>
       </body>
     </html>
   );
