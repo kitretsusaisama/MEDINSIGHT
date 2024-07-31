@@ -45,7 +45,7 @@ export default function RootLayout({
   <link href="https://medinsight.vercel.app/css/all.css" rel="stylesheet" media="screen"/>
 
 	{/*<!-- Animated Css --> */}
-	<link href="https://medinsight.vercel.app/css/animate.min.css" rel="stylesheet"/>
+	<link href="https://medinsight.vercel.app/css/animate.css" rel="stylesheet"/>
 	{/*<!-- Magnific Popup core CSS file --> */}
 	<link rel="stylesheet" href="https://medinsight.vercel.app/css/magnific-popup.css"/>
 	{/*<!-- Main custom Css --> */}
